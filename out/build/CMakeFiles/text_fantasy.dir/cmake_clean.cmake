@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/text_fantasy.dir/src/game.cpp.o"
+  "CMakeFiles/text_fantasy.dir/src/game.cpp.o.d"
   "CMakeFiles/text_fantasy.dir/src/main.cpp.o"
   "CMakeFiles/text_fantasy.dir/src/main.cpp.o.d"
   "text_fantasy"

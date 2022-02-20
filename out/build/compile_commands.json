@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/alan/DevS/Cpp/Text_Fantasy/out/build",
+  "command": "/usr/bin/c++  -I/home/alan/DevS/Cpp/Text_Fantasy/./include  -o CMakeFiles/text_fantasy.dir/src/game.cpp.o -c /home/alan/DevS/Cpp/Text_Fantasy/src/game.cpp",
+  "file": "/home/alan/DevS/Cpp/Text_Fantasy/src/game.cpp"
+},
+{
+  "directory": "/home/alan/DevS/Cpp/Text_Fantasy/out/build",
+  "command": "/usr/bin/c++  -I/home/alan/DevS/Cpp/Text_Fantasy/./include  -o CMakeFiles/text_fantasy.dir/src/main.cpp.o -c /home/alan/DevS/Cpp/Text_Fantasy/src/main.cpp",
+  "file": "/home/alan/DevS/Cpp/Text_Fantasy/src/main.cpp"
+}
+]

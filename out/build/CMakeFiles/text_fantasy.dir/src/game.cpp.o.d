@@ -1,5 +1,6 @@
-CMakeFiles/text_fantasy.dir/src/main.cpp.o: \
- /home/alan/DevS/Cpp/Text_Fantasy/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/text_fantasy.dir/src/game.cpp.o: \
+ /home/alan/DevS/Cpp/Text_Fantasy/src/game.cpp /usr/include/stdc-predef.h \
+ /home/alan/DevS/Cpp/Text_Fantasy/./include/game.h \
  /usr/include/c++/11.2.0/iostream \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -128,5 +129,4 @@ CMakeFiles/text_fantasy.dir/src/main.cpp.o: \
  /usr/include/c++/11.2.0/bits/locale_facets.tcc \
  /usr/include/c++/11.2.0/bits/basic_ios.tcc \
  /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
- /usr/include/c++/11.2.0/bits/istream.tcc \
- /home/alan/DevS/Cpp/Text_Fantasy/./include/game.h
+ /usr/include/c++/11.2.0/bits/istream.tcc

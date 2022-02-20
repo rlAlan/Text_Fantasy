@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/alan/DevS/Cpp/Text_Fantasy/./include
 
 CXX_FLAGS = 
 
