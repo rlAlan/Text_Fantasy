@@ -1,16 +1,16 @@
 # Fantasy Text Game
 
-Stats:
-  -> HP (Hit Points)
-  -> MP (Magic Points)
-  -> Strength
-  -> Agility
+Stats: <br/>
+  -> HP (Hit Points)  <br/>
+  -> MP (Magic Points)<br/>
+  -> Strength         <br/>
+  -> Agility          <br/>
 
-Player -----------> Species:
-                        ->  Elf 
-                        ->  Dwarf
-                        ->  Human
-                        ->  BeastMan
+Player -----------> Species: <br/>
+                        ->  Elf   <br/>
+                        ->  Dwarf <br/>
+                        ->  Human <br/>
+                        ->  BeastMan <br/>
 
 Elf (Benefits/Drawbacks):
   - Higher  MP
@@ -38,26 +38,26 @@ Human (Benefits/Drawbacks):
   - BASE WEAPON: Sword
 
 
-Weapons---------->  Type:
-                        -> Magic Staff
-                        -> Sword
-                        -> Shield
-                        -> Bow / Arrow
-                        -> Hammer
+Weapons---------->  Type: <br/>
+                        -> Magic Staff<br/>
+                        -> Sword<br/>
+                        -> Shield<br/>
+                        -> Bow / Arrow<br/>
+                        -> Hammer<br/>
 
 
 
-Monsters ---------> Species:
-                        ->  Orc
-                        ->  Dragon
-                        ->  Goblin
+Monsters ---------> Species:<br/>
+                        ->  Orc<br/>
+                        ->  Dragon<br/>
+                        ->  Goblin<br/>
 
 
 
-Potions ---------> Type:
-                        ->  HP increase (2)
-                        ->  MP increase (2)
-                        -> Strength / Agility increase (2)
+Potions ---------> Type:<br/>
+                        ->  HP increase (2)<br/>
+                        ->  MP increase (2)<br/>
+                        -> Strength / Agility increase (2)<br/>
 
 
 
