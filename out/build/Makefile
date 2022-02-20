@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alan/DevS/Cpp/text_fantasy
+CMAKE_SOURCE_DIR = /home/alan/DevS/Cpp/Text_Fantasy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alan/DevS/Cpp/text_fantasy/out/build
+CMAKE_BINARY_DIR = /home/alan/DevS/Cpp/Text_Fantasy/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/DevS/Cpp/text_fantasy/out/build/CMakeFiles /home/alan/DevS/Cpp/text_fantasy/out/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/DevS/Cpp/Text_Fantasy/out/build/CMakeFiles /home/alan/DevS/Cpp/Text_Fantasy/out/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/DevS/Cpp/text_fantasy/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/DevS/Cpp/Text_Fantasy/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,30 +129,6 @@ text_fantasy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_fantasy.dir/build.make CMakeFiles/text_fantasy.dir/build
 .PHONY : text_fantasy/fast
 
-src/game.o: src/game.cpp.o
-.PHONY : src/game.o
-
-# target to build an object file
-src/game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_fantasy.dir/build.make CMakeFiles/text_fantasy.dir/src/game.cpp.o
-.PHONY : src/game.cpp.o
-
-src/game.i: src/game.cpp.i
-.PHONY : src/game.i
-
-# target to preprocess a source file
-src/game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_fantasy.dir/build.make CMakeFiles/text_fantasy.dir/src/game.cpp.i
-.PHONY : src/game.cpp.i
-
-src/game.s: src/game.cpp.s
-.PHONY : src/game.s
-
-# target to generate assembly for a file
-src/game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_fantasy.dir/build.make CMakeFiles/text_fantasy.dir/src/game.cpp.s
-.PHONY : src/game.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... text_fantasy"
-	@echo "... src/game.o"
-	@echo "... src/game.i"
-	@echo "... src/game.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

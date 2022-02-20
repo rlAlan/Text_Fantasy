@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alan/DevS/Cpp/text_fantasy
+CMAKE_SOURCE_DIR = /home/alan/DevS/Cpp/Text_Fantasy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alan/DevS/Cpp/text_fantasy/out/build
+CMAKE_BINARY_DIR = /home/alan/DevS/Cpp/Text_Fantasy/out/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/text_fantasy.dir/depend.make
@@ -69,47 +69,31 @@ include CMakeFiles/text_fantasy.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/text_fantasy.dir/flags.make
 
-CMakeFiles/text_fantasy.dir/src/game.cpp.o: CMakeFiles/text_fantasy.dir/flags.make
-CMakeFiles/text_fantasy.dir/src/game.cpp.o: ../../src/game.cpp
-CMakeFiles/text_fantasy.dir/src/game.cpp.o: CMakeFiles/text_fantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alan/DevS/Cpp/text_fantasy/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/text_fantasy.dir/src/game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_fantasy.dir/src/game.cpp.o -MF CMakeFiles/text_fantasy.dir/src/game.cpp.o.d -o CMakeFiles/text_fantasy.dir/src/game.cpp.o -c /home/alan/DevS/Cpp/text_fantasy/src/game.cpp
-
-CMakeFiles/text_fantasy.dir/src/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_fantasy.dir/src/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/DevS/Cpp/text_fantasy/src/game.cpp > CMakeFiles/text_fantasy.dir/src/game.cpp.i
-
-CMakeFiles/text_fantasy.dir/src/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_fantasy.dir/src/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/DevS/Cpp/text_fantasy/src/game.cpp -o CMakeFiles/text_fantasy.dir/src/game.cpp.s
-
 CMakeFiles/text_fantasy.dir/src/main.cpp.o: CMakeFiles/text_fantasy.dir/flags.make
 CMakeFiles/text_fantasy.dir/src/main.cpp.o: ../../src/main.cpp
 CMakeFiles/text_fantasy.dir/src/main.cpp.o: CMakeFiles/text_fantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alan/DevS/Cpp/text_fantasy/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/text_fantasy.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_fantasy.dir/src/main.cpp.o -MF CMakeFiles/text_fantasy.dir/src/main.cpp.o.d -o CMakeFiles/text_fantasy.dir/src/main.cpp.o -c /home/alan/DevS/Cpp/text_fantasy/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alan/DevS/Cpp/Text_Fantasy/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/text_fantasy.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_fantasy.dir/src/main.cpp.o -MF CMakeFiles/text_fantasy.dir/src/main.cpp.o.d -o CMakeFiles/text_fantasy.dir/src/main.cpp.o -c /home/alan/DevS/Cpp/Text_Fantasy/src/main.cpp
 
 CMakeFiles/text_fantasy.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_fantasy.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/DevS/Cpp/text_fantasy/src/main.cpp > CMakeFiles/text_fantasy.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/DevS/Cpp/Text_Fantasy/src/main.cpp > CMakeFiles/text_fantasy.dir/src/main.cpp.i
 
 CMakeFiles/text_fantasy.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_fantasy.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/DevS/Cpp/text_fantasy/src/main.cpp -o CMakeFiles/text_fantasy.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/DevS/Cpp/Text_Fantasy/src/main.cpp -o CMakeFiles/text_fantasy.dir/src/main.cpp.s
 
 # Object files for target text_fantasy
 text_fantasy_OBJECTS = \
-"CMakeFiles/text_fantasy.dir/src/game.cpp.o" \
 "CMakeFiles/text_fantasy.dir/src/main.cpp.o"
 
 # External object files for target text_fantasy
 text_fantasy_EXTERNAL_OBJECTS =
 
-text_fantasy: CMakeFiles/text_fantasy.dir/src/game.cpp.o
 text_fantasy: CMakeFiles/text_fantasy.dir/src/main.cpp.o
 text_fantasy: CMakeFiles/text_fantasy.dir/build.make
 text_fantasy: CMakeFiles/text_fantasy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alan/DevS/Cpp/text_fantasy/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable text_fantasy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alan/DevS/Cpp/Text_Fantasy/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable text_fantasy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/text_fantasy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +105,6 @@ CMakeFiles/text_fantasy.dir/clean:
 .PHONY : CMakeFiles/text_fantasy.dir/clean
 
 CMakeFiles/text_fantasy.dir/depend:
-	cd /home/alan/DevS/Cpp/text_fantasy/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alan/DevS/Cpp/text_fantasy /home/alan/DevS/Cpp/text_fantasy /home/alan/DevS/Cpp/text_fantasy/out/build /home/alan/DevS/Cpp/text_fantasy/out/build /home/alan/DevS/Cpp/text_fantasy/out/build/CMakeFiles/text_fantasy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alan/DevS/Cpp/Text_Fantasy/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alan/DevS/Cpp/Text_Fantasy /home/alan/DevS/Cpp/Text_Fantasy /home/alan/DevS/Cpp/Text_Fantasy/out/build /home/alan/DevS/Cpp/Text_Fantasy/out/build /home/alan/DevS/Cpp/Text_Fantasy/out/build/CMakeFiles/text_fantasy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/text_fantasy.dir/depend
 

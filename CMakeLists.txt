@@ -7,5 +7,5 @@ project(text_fantasy)
 
 #target_include_directories(${PROJECT_NAME} "${CMAKE_CURRENT_LIST_DIR}/include")
 #set(HEADERS ./include/game.h)
-file(GLOB SOURCES "src/*.cpp src/*.h")
+file(GLOB SOURCES "src/*.cpp")
 add_executable(${PROJECT_NAME} ${SOURCES})

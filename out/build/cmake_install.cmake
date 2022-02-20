@@ -1,4 +1,4 @@
-# Install script for directory: /home/alan/DevS/Cpp/text_fantasy
+# Install script for directory: /home/alan/DevS/Cpp/Text_Fantasy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alan/DevS/Cpp/text_fantasy/out/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alan/DevS/Cpp/Text_Fantasy/out/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
