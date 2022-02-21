@@ -1,5 +1,4 @@
-#include <iostream>
-#include <game.h>
+#include <Common.h>
 
 int main()
 {
@@ -9,5 +8,5 @@ int main()
 
 
 /*
- *
+ *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
  */

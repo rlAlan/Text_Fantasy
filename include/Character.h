@@ -1,19 +1,11 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
-class Character
+#include <Player_Entiy>
+
+class Character : public Player_Entiy
 {
-  public:
-// Public Funcs
-    void getStrength();
-    void getAgility();
-    void getHP();
-    void getMP();
-// Public Vars
-    int strength{};
-    int agility{};
-    int mp{};
-    int hp{};
+
 };
 /// Update Character.cpp
 #endif
