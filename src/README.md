@@ -59,62 +59,8 @@ Potions ---------> Type:<br/>
                         ->  MP increase (2)<br/>
                         -> Strength / Agility increase (2)<br/>
 
+Ask what species they want to be
+File for storing their stats and items and stuff, we can ask if they want to display that
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Base Class of player actions i.e. HP, MP, Strength, Agility
